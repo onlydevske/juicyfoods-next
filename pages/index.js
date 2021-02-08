@@ -1,12 +1,13 @@
 import Head from 'next/head'
 
-export default function Home() {
+const index = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Juicy Foods - Next</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
     </div>
   )
 }
+
+export default index
